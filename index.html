@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GitHub Repository Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            GitHub Explorer
+        </div>
+
+        <a href="https://github.com/" target="_blank">
+            GitHub
+        </a>
+    </header>
+
+
+    <main class="container">
+
+        <section class="hero">
+            <h1>Explore GitHub Repositories</h1>
+
+            <p>
+                Search repositories, explore their details,
+                languages, contributors and activity.
+            </p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search GitHub repositories..."
+                >
+
+                <button id="searchButton">
+                    Search
+                </button>
+
+            </div>
+        </section>
+
+
+        <section id="status">
+            <!-- Loading, error and empty messages will appear here -->
+        </section>
+
+
+        <section id="results" class="repository-grid">
+            <!-- Repository cards will be generated here -->
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
