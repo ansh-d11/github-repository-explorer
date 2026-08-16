@@ -1,4 +1,4 @@
 # github-repository-explorer
-Anshdhar A Dubey
-Information Technology S.Y
+Anshdhar A Dubey <br>
+Information Technology S.Y <br>
 A web app to explore GitHub repositories
